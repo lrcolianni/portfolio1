@@ -9,31 +9,29 @@ h1, h2, p{
   margin-right: 15px;
   width: 100%;
 }
-
+.intro{
+  display: flex;
+}
 .headshot{
   padding-right: 15px;
-  float: left;
   height: 588px;
   width: 50%;
 }
 #headshot{
   height: 585px;
-   float: right;
 }
 
 .logo{
-  float: left;
   height: 588px;
   padding-top: 200px;
   width: 49%;
 }
-#logo{
-  padding-left: 15px;
-}
+
 .title{
   font-family: 'Marvel', sans-serif;
   font-size: 1.5625rem;
   text-align: left;
+  margin-left: 0px;
 }
 #name{
   color: #F0577C;
