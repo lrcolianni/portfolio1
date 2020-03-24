@@ -11,21 +11,23 @@ h1, h2, p{
 }
 
 #headshot{
-  margin-right: 15px;
+  padding-right: 15px;
   display: inline-block;
-  width: 30%;
+  width: 20%;
 }
 
 .logo{
   display: inline-block;
+  width: 20%;
 }
 #logo{
-  width: 51px;
-  margin-left: 15px;
+  width: 20%;
+  padding-left: 15px;
+  display: inline-block;
 }
 .title{
   font-family: 'Marvel', sans-serif;
-  font-size: 1rem;
+  font-size: 1.5625rem;
   text-align: left;
 }
 #name{
@@ -74,14 +76,25 @@ img{
 .bio{
   text-align: left;
 }
-
-
+.meet{
+  text-align: center;
+}
+.connect{
+  font-family: 'Orienta', sans-serif;
+  text-align: center;
+}
 .footer{
   width: 8%;
   padding: 15px;
   display: inline;
 }
 
+
+/* Start of case study*/
+
+#casestudy{
+  padding-top: 40px;
+}
 .pagedesign{
   padding-bottom: 15px;
   padding: 15px;
