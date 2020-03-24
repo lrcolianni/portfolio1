@@ -7,22 +7,24 @@ body{
 h1, h2, p{
   margin-left: 15px;
   margin-right: 15px;
+  width: 100%;
 }
 #headshot{
   width: 151px;
-  height: 195px;
   margin-right: 15px;
   display: inline-block;
 }
 
-.logo{
+#logo{
   display: inline-block;
+  width: 51px;
 }
 .title{
   font-family: 'Marvel', sans-serif;
 }
 #name{
   color: #F0577C;
+  text-align: left;
 }
 
 .button{
@@ -30,12 +32,26 @@ h1, h2, p{
   background-color: #E5F8F5;
 }
 #chicagosign{
-  height: 121px;
+  width: 100%;
+  height: auto;
 }
 h1, h2, .button{
   font-family: 'days one', sans-serif;
 }
+h1{
+  text-align: center;
+}
 p{
   font-family: 'Orienta', sans-serif;
   font-size: 14px;
+}
+a{
+  display: inline;
+  text-align: right;
+}
+img{
+  width: 100%;
+}
+.bio{
+  text-align: left;
 }
