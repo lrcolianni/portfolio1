@@ -9,18 +9,24 @@ h1, h2, p{
   margin-right: 15px;
   width: 100%;
 }
+
 #headshot{
-  width: 151px;
   margin-right: 15px;
   display: inline-block;
+  width: 30%;
 }
 
-#logo{
+.logo{
   display: inline-block;
+}
+#logo{
   width: 51px;
+  margin-left: 15px;
 }
 .title{
   font-family: 'Marvel', sans-serif;
+  font-size: 1rem;
+  text-align: left;
 }
 #name{
   color: #F0577C;
@@ -35,23 +41,59 @@ h1, h2, p{
   width: 100%;
   height: auto;
 }
+
 h1, h2, .button{
   font-family: 'days one', sans-serif;
+
 }
 h1{
+  text-align: left;
+  font-size: 1.125rem;
+}
+.section{
   text-align: center;
+  font-size: 1.125rem;
+}
+h2{
+  font-size: 1.125rem;
 }
 p{
   font-family: 'Orienta', sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
+  padding-top: 15px;
 }
 a{
   display: inline;
-  text-align: right;
+  float: right;
+  font-size: 1rem;
 }
 img{
   width: 100%;
+  padding-bottom: 15px;
 }
 .bio{
   text-align: left;
+}
+
+
+.footer{
+  width: 8%;
+  padding: 15px;
+  display: inline;
+}
+
+.pagedesign{
+  padding-bottom: 15px;
+  padding: 15px;
+  display: inline;
+}
+#page1{
+  padding-top: 15px;
+}
+
+.analysislogo{
+  width: 30%;
+  padding: 15px;
+  display: inline;
+
 }
