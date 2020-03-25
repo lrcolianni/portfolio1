@@ -77,9 +77,11 @@ h1, h2, p{
   margin-top: 15px;
   display: inline-block;
 }
-#data{
+h1{
   display: inline-block;
-  width: 80% 
+  width: 80%;
+  font-size: 1.5rem;
+  text-align: left;
 }
 #chicagosign{
   width: 100%;
@@ -88,11 +90,10 @@ h1, h2, p{
 
 h1, h2, .button{
   font-family: 'days one', sans-serif;
-
 }
-h1{
-  text-align: left;
-  font-size: 1.125rem;
+
+h2{
+  font-size: 1.25rem;
 }
 .section{
   text-align: center;
