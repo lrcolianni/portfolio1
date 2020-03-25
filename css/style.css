@@ -2,7 +2,39 @@ body{
   background-color: #E5F8F5;
 
 }
+.footer:active, a:active, .menu:active{
+  background-color: #99C24D;
+}
 
+.menu{
+  width: 65px;
+  height: 7px;
+  float: right;
+  margin-top: 40px;
+  display: inline-block;
+  cursor: pointer;
+}
+.hamburger1, .hamburger2, .hamburger3{
+  width: 35px;
+  height: 5px;
+  background-color: #F0577C;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
 
 h1, h2, p{
   margin-left: 15px;
@@ -14,22 +46,19 @@ h1, h2, p{
 }
 .headshot{
   padding-right: 15px;
-  height: 588px;
-  width: 50%;
 }
 #headshot{
-  height: 585px;
+  height: 500px;
 }
 
 .logo{
-  height: 588px;
   padding-top: 200px;
-  width: 49%;
+  width: 50%;
 }
 
 .title{
   font-family: 'Marvel', sans-serif;
-  font-size: 1.5625rem;
+  font-size: 2.5rem;
   text-align: left;
   margin-left: 0px;
 }
@@ -40,7 +69,17 @@ h1, h2, p{
 
 .button{
   text-align: right;
-  background-color: #E5F8F5;
+  background-color: #F0577C;
+  padding: 5px;
+  border-radius: 6px;
+  color: white;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  display: inline-block;
+}
+#data{
+  display: inline-block;
+  width: 80% 
 }
 #chicagosign{
   width: 100%;
@@ -67,11 +106,25 @@ p{
   font-family: 'Orienta', sans-serif;
   font-size: 0.875rem;
   padding-top: 15px;
+  padding-bottom: 15px;
 }
 a{
   display: inline;
   float: right;
-  font-size: 1rem;
+  font-size: 1.5rem;
+}
+.paragraph{
+  padding-bottom: 15px;
+}
+#webdesign{
+  padding-top: 15px;
+}
+.webex{
+  display:inline-block;
+  width: 100%;
+}
+.pagedesign{
+  display: inline-block;
 }
 img{
   padding-bottom: 15px;
@@ -79,17 +132,27 @@ img{
 .bio{
   text-align: left;
 }
+
+.lifepics{
+  width: 100%;
+}
+
 .meet{
   text-align: center;
+  padding-bottom: 15px;
 }
 .connect{
   font-family: 'Orienta', sans-serif;
   text-align: center;
+  padding-bottom: 15px;
 }
 .footer{
   width: 8%;
   padding: 15px;
   display: inline;
+}
+.footers{
+  text-align: center;
 }
 
 
@@ -97,11 +160,36 @@ img{
 
 #casestudy{
   padding-top: 40px;
+  margin-left: 15px;
 }
+
+#smartbox{
+  margin-left: 15px;
+}
+.smartbox{
+  width:100%;
+}
+
 .pagedesign{
   padding-bottom: 15px;
   padding: 15px;
-  display: inline;
+  display: block;
+  width: 100%;
+}
+.dashboard1{
+  width:100%;
+}
+
+.data{
+  width: 65%;
+}
+.datas{
+  text-align: center;
+}
+
+.persona{
+  width: 100%;
+  padding-bottom: 0px;
 }
 #page1{
   padding-top: 15px;
@@ -111,5 +199,23 @@ img{
   width: 30%;
   padding: 15px;
   display: inline;
+  text-align: center;
 
+}
+
+.users{
+  width:20%;
+  display: inline;
+}
+.needs{
+  width:40%;
+  display: inline;
+}
+.priority{
+  width:10%;
+  display: inline;
+}
+
+.flow, .logosketch, .mock, .logofinal, .color, .typo, .wireframe, .preference, .homescreen, .dashboard, .closing{
+  width: 100%;
 }
