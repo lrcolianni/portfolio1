@@ -1,3 +1,4 @@
+
 body{
   background-color: #E5F8F5;
 
@@ -7,10 +8,9 @@ body{
 }
 
 .menu{
-  width: 65px;
   height: 7px;
   float: right;
-  margin-top: 40px;
+  margin-top: 15px;
   display: inline-block;
   cursor: pointer;
 }
@@ -48,17 +48,17 @@ h1, h2, p{
   padding-right: 15px;
 }
 #headshot{
-  height: 500px;
+  height: 200px;
 }
 
 .logo{
-  padding-top: 200px;
+  padding-top: 50px;
   width: 50%;
 }
 
 .title{
   font-family: 'Marvel', sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.25rem;
   text-align: left;
   margin-left: 0px;
 }
@@ -80,7 +80,7 @@ h1, h2, p{
 h1{
   display: inline-block;
   width: 80%;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-align: left;
 }
 #chicagosign{
@@ -97,12 +97,10 @@ h2{
 }
 .section{
   text-align: center;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   padding-bottom: 15px;
 }
-h2{
-  font-size: 1.125rem;
-}
+
 p{
   font-family: 'Orienta', sans-serif;
   font-size: 0.875rem;
@@ -112,7 +110,7 @@ p{
 a{
   display: inline;
   float: right;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .paragraph{
   padding-bottom: 15px;
@@ -159,6 +157,9 @@ img{
 
 /* Start of case study*/
 
+.titles{
+  display: inline;
+}
 #casestudy{
   padding-top: 40px;
   margin-left: 15px;
