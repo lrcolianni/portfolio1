@@ -74,25 +74,29 @@ h6{
   text-align: center;
   font-size: 0.875rem;
 }
-.img{
-    width: 100vw;
-    height: 100vw;
-  }
+
 .headshot{
   padding-right: 15px;
 }
 #headshot{
-  height: 200px;
+  height: 80vw;
+  width: 50vw;
 }
 
 .intro{
   display: flex;
 }
+
+#logo{
+    width: 50%;
+  }
+
 .logo{
   padding-top: 50px;
-  width: 50%;
 }
-
+.img{
+  height: 47px;
+}
 .mbutton{
   background-color: #F0577C;
   padding: 5px;
