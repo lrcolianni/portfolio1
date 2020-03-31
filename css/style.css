@@ -69,6 +69,15 @@ h5{
   font-size: 1.25rem;
 }
 
+h6{
+  font-family: 'Marvel', sans-serif;
+  text-align: center;
+  font-size: 0.875rem;
+}
+.img{
+    width: 100vw;
+    height: 100vw;
+  }
 .headshot{
   padding-right: 15px;
 }
@@ -90,8 +99,8 @@ h5{
   border-radius: 6px;
   color: white;
   margin-bottom: 15px;
-  margin-top: 15px;
   display: inline-block;
+  text-align: center;
 }
 
 .button{
@@ -109,4 +118,20 @@ a{
   display: inline;
   float: right;
   font-size: 1rem;
+  font-family: 'days one', sans-serif;
+}
+.bar{
+  color: white;
+  height: 29px;
+}
+
+/* Start of case study*/
+.titles{
+  display: inline;
+}
+.title{
+  padding-left: 15px;
+}
+#casestudy{
+  padding-top: 15px;
 }
