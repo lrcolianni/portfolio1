@@ -61,7 +61,8 @@ p{
   font-size: 0.875rem;
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 15px
+  padding-left: 15px;
+  padding-right: 15px;
 }
 h5{
   font-family: 'Marvel', sans-serif;
@@ -88,14 +89,19 @@ h6{
 }
 
 #logo{
-    width: 50%;
+    width: 30%;
+    height: 20%;
   }
 
 .logo{
-  padding-top: 50px;
+  padding-top: 30vw;
 }
 .img{
   height: 47px;
+}
+img{
+  width: 100vw;
+  height: 70vw;
 }
 .mbutton{
   background-color: #F0577C;
@@ -124,9 +130,25 @@ a{
   font-size: 1rem;
   font-family: 'days one', sans-serif;
 }
+#busybus {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.id {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .bar{
   color: white;
   height: 29px;
+}
+.footer{
+  width: 10vw;
+  height: 10vw;
+  padding-right: 15px;
 }
 
 /* Start of case study*/
