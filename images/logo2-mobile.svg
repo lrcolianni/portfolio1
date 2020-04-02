@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="149px" height="51px" viewBox="0 0 149 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A0" transform="translate(-931.000000, -2212.000000)">
+            <g id="Group-8" transform="translate(931.000000, 2209.000000)">
+                <g id="Group-4" transform="translate(0.000000, 3.000000)" fill="#D8D8D8" stroke="#000000">
+                    <rect id="Rectangle" stroke-width="2" x="1" y="1" width="49" height="49" rx="8"></rect>
+                    <g id="Group-3" transform="translate(7.000000, 16.000000)">
+                        <rect id="Rectangle" x="0.5" y="0.5" width="36" height="18" rx="2"></rect>
+                        <path d="M35,1 L18.5,14 L2,1 L35,1 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+                <g id="Group-5" transform="translate(47.000000, 0.000000)" fill="#D8D8D8">
+                    <rect id="Rectangle" stroke="#000000" stroke-width="2" x="3" y="4" width="49" height="49" rx="8"></rect>
+                    <g id="Group" transform="translate(27.234672, 28.988662) rotate(146.000000) translate(-27.234672, -28.988662) translate(10.234672, 5.488662)">
+                        <rect id="Rectangle" stroke="#000000" x="12.8512908" y="22.7814671" width="10" height="23"></rect>
+                        <polygon id="Triangle" stroke="#000000" points="17.1392746 0.0892830598 33.6392746 24.0892831 0.63927463 24.0892831"></polygon>
+                        <rect id="Rectangle" x="13.3902979" y="22.0704701" width="9" height="10"></rect>
+                    </g>
+                </g>
+                <g id="Group-6" transform="translate(98.000000, 3.000000)">
+                    <rect id="Rectangle" stroke="#000000" stroke-width="2" fill="#D8D8D8" x="1" y="1" width="49" height="49" rx="8"></rect>
+                    <g id="Group-2" transform="translate(23.498036, 25.753824) rotate(36.000000) translate(-23.498036, -25.753824) translate(18.498036, 0.253824)">
+                        <rect id="Rectangle" stroke="#000000" fill="#D8D8D8" x="0.5" y="4.5" width="9" height="38" rx="1"></rect>
+                        <polygon id="Triangle" stroke="#000000" fill="#D8D8D8" transform="translate(5.000000, 47.000000) rotate(-180.000000) translate(-5.000000, -47.000000) " points="5 43 9 51 1 51"></polygon>
+                        <rect id="Rectangle" stroke="#000000" fill="#D8D8D8" x="0.5" y="0.5" width="9" height="4" rx="1"></rect>
+                        <rect id="Rectangle" stroke="#000000" fill="#979797" x="0.5" y="4.5" width="9" height="1"></rect>
+                        <polygon id="Rectangle" fill="#000000" transform="translate(5.000000, 49.708861) rotate(-315.000000) translate(-5.000000, -49.708861) " points="4.35443038 49.0632911 5.625 49.0838608 5.64556962 50.3544304 4.375 50.3338608"></polygon>
+                    </g>
+                    <text id="Smartbox" transform="translate(32.500000, 30.500000) rotate(-52.000000) translate(-32.500000, -30.500000) " font-family="Cabin-Regular, Cabin" font-size="6.84540787" font-weight="normal" fill="#585A5C">
+                        <tspan x="15" y="33">Smartbox</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
