@@ -101,7 +101,7 @@ h6{
 
 #logo{
     width: 12vw;
-    height: 7vh;
+    height: 5vh;
   }
 
 .logo{
@@ -136,12 +136,26 @@ img{
   padding: 9px;
   width: 50%;
   color: #F0577C;
+  text-align: center;
+}
+.smartboxtext{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.busybustext{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 #bartop{
   margin-top: 15px;
 }
 #projects{
   padding-top: 15px;
+  padding-bottom: 0px;
 }
 a{
   display: inline;
@@ -213,6 +227,7 @@ a{
 #calendar{
   text-align: center;
   display:inline-block;
+  margin-right: 5%;
 }
 #email{
   text-align: center;
@@ -223,8 +238,10 @@ a{
   padding-top: 15px;
 }
 .twobuttons{
-  width: 100%;
-  text-align: center;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
 }
 
 .footer{
@@ -256,6 +273,7 @@ a{
 }
 #prototype{
   text-align: center;
+  margin-bottom: 15px;
 }
 #dashboard{
   height: 100vw;
