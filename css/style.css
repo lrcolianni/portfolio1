@@ -85,6 +85,7 @@ h6{
   text-align: center;
   font-size: 1.5625rem;
   padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .headshot{
@@ -275,6 +276,9 @@ a{
   text-align: center;
   margin-bottom: 15px;
 }
+#buttontop{
+  margin-top: 15px;
+}
 #dashboard{
   height: 100vw;
 }
@@ -287,14 +291,33 @@ a{
 .data{
   height: 70vw;
   width: 70vw;
+  padding-bottom: 15px;
 }
 .datas{
   text-align: center;
 }
-.userstory{
-  height: 100vw;
+#personaman{
+  padding-top: 15px;
 }
 
+#userstory1{
+  height: 50vh;
+  padding-bottom: 15px;
+}
+#userstory2{
+  height: 70vh;
+  padding-bottom: 15px;
+}
+#userstory3{
+  height: 60vh;
+  padding-bottom: 15px;
+}
+.flow{
+  padding-bottom: 15px;
+}
+.logosketch{
+  padding-bottom: 15px;
+}
 .mock{
   height: 30vw;
   width: 50vw;
@@ -304,11 +327,44 @@ a{
 }
 
 .logofinal{
-  height: 20vw;
+  height: 15vw;
+  width: 60vw;
+  text-align: center;
+}
+.logofinals{
+  text-align: center;
+  padding-bottom: 15px;
+}
+.color{
+  padding-bottom: 15px;
+}
+.typo{
+  height:25vh;
+  padding-bottom: 15px;
+}
+.wireframe{
+  height: 40vh;
+  padding-bottom: 15px;
+}
+.preference{
+  height: 50vh;
+  padding-bottom: 15px;
   width: 100vw;
 }
+.homescreen{
+  height: 50vh;
+  width:100vw;
+  padding-bottom: 15px;
+}
+.dashboard{
+  height: 50vh;
+  width:100vw;
+}
+.visualdesignh1{
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
 
-.preference, .homescreen, .dashboard{
-  width: 100vw;
-  height: 100vw;
+#conclusion{
+  padding-bottom: 0px;
 }
