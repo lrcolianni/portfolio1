@@ -24,16 +24,16 @@ body{
   transition: 0.4s;
 }
 
-.change .bar1 {
+.change .hamburger1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
   transform: rotate(-45deg) translate(-9px, 6px) ;
 }
 
-.change .bar2 {
+.change .hamburger2 {
   opacity: 0;
 }
 
-.change .bar3 {
+.change .hamburger3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
   transform: rotate(45deg) translate(-8px, -8px) ;
 }
@@ -100,8 +100,8 @@ h6{
 }
 
 #logo{
-    width: 30%;
-    height: 20%;
+    width: 12vw;
+    height: 7vh;
   }
 
 .logo{
@@ -116,24 +116,25 @@ img{
 }
 .mbutton{
   background-color: #F0577C;
-  padding: 5px;
   border-radius: 6px;
+  padding: 9px;
+  width: 35vw;
   color: white;
-  margin-bottom: 15px;
-  display: inline-block;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin: 0;
+  justify-content: center;
 }
 
 .button{
   background-color: white;
-  border-width: 2px;
+  border: 3px solid #F0577C;
   border-radius: 6px;
-  border-color: #F0577C;
-  color:#F0577C;
-  display: inline-block;
-  margin-bottom: 15px;
-  margin-top: 15px;
-  padding: 5px;
+  padding: 9px;
+  width: 30vw;
+  color: #F0577C;
 }
 a{
   display: inline;
@@ -142,7 +143,7 @@ a{
   font-family: 'days one', sans-serif;
 }
 .smartboximage{
-  background-image: url("/images/smartbox-mobile.png");
+  background-image: url("../images/smartbox-mobile.png");
   background-color: #cccccc;
   height: 80vw;
   background-position: center;
@@ -161,7 +162,7 @@ a{
 }
 
 .busybusimage{
-  background-image: url("/images/smartbox-mobile.png");
+  background-image: url("../images/busybus-mobile.png");
   background-color: #cccccc;
   height: 80vw;
   background-position: center;
