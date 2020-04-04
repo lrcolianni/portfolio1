@@ -1,3 +1,12 @@
-function myFunction(x) {
-  x.classList.toggle("change");
+function hamburgerToggle() {
+  $('.menu').on('click', function() {
+    $(this).toggleClass('change')
+    $('.dropdown-content').toggleClass('showMenu')
+  })
 }
+
+function init() {
+  hamburgerToggle();
+}
+
+$(init)

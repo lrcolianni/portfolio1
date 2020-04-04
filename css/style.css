@@ -16,6 +16,28 @@ body{
   cursor: pointer;
   padding-right: 15px;
 }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 0.75rem;
+  background-color: #088884;
+  display: right;
+}
+
+.showMenu {
+  display: block;
+}
 .hamburger1, .hamburger2, .hamburger3{
   width: 35px;
   height: 5px;
