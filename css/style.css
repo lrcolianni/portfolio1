@@ -118,13 +118,14 @@ img{
   background-color: #F0577C;
   border-radius: 6px;
   padding: 9px;
-  width: 35vw;
+  width: 50%;
   color: white;
   text-align: center;
+}
+.buttonintro{
   display: flex;
   flex-direction: column;
-  position: absolute;
-  margin: 0;
+  align-items: center;
   justify-content: center;
 }
 
@@ -133,8 +134,14 @@ img{
   border: 3px solid #F0577C;
   border-radius: 6px;
   padding: 9px;
-  width: 30vw;
+  width: 50%;
   color: #F0577C;
+}
+#bartop{
+  margin-top: 15px;
+}
+#projects{
+  padding-top: 15px;
 }
 a{
   display: inline;
@@ -146,6 +153,7 @@ a{
   background-image: url("../images/smartbox-mobile.png");
   background-color: #cccccc;
   height: 80vw;
+  width: 100vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -191,14 +199,16 @@ a{
   transform: translate(-50%, -50%);
 }
 .bar{
-  color: white;
-  height: 29px;
+  background-color: white;
+  height: 2.5vh;
+  width: 100vw;
 }
 
 .footbutton{
-  display: inline-block;
-  text-align: center;
-  display:inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #calendar{
   text-align: center;
@@ -210,6 +220,7 @@ a{
 }
 #meet{
   text-align: center;
+  padding-top: 15px;
 }
 .twobuttons{
   width: 100%;
@@ -217,8 +228,8 @@ a{
 }
 
 .footer{
-  width: 5vw;
-  height: 5vw;
+  width: 7vw;
+  height: 7vw;
   padding-right: 15px;
 }
 .footers{
