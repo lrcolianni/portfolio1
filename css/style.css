@@ -17,8 +17,10 @@ body{
   padding-right: 15px;
 }
 .dropdown-content {
-  display: none;
+  display: block;
   position: absolute;
+  right: 0;
+  top: 0;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -144,6 +146,11 @@ img{
   width: 50%;
   color: white;
   text-align: center;
+}
+.mbutton:hover{
+  background-color: #7B293C;
+  color: white;
+  font-family: 'days one', sans-serif;
 }
 .buttonintro{
   display: flex;
