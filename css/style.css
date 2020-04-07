@@ -17,12 +17,12 @@ body{
   padding-right: 15px;
 }
 .dropdown-content {
-  display: block;
+  display: none;
   position: absolute;
   right: 0;
   top: 0;
   background-color: #088884;
-  min-width: 100px;
+  min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   margin-top: 60px;
@@ -40,6 +40,7 @@ body{
 }
 .linkbottom{
   border-bottom: 2px solid #E5F8F5;
+  width: 100%;
 }
 
 .showMenu {
@@ -306,9 +307,10 @@ a{
 #casestudy{
   padding-top: 15px;
 }
-#prototype{
+#prototype, #resume{
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
+  margin-top: 10px;
 }
 #buttontop{
   margin-top: 15px;
@@ -401,4 +403,27 @@ a{
 
 #conclusion{
   padding-bottom: 0px;
+}
+
+/* Start of about me*/
+#aboutme{
+  padding-top: 30px;
+  padding-left: 15px;
+  text-align: left;
+}
+.bio1{
+  height: 35vh;
+}
+.personallife{
+  padding-top: 10px;
+}
+.mystory{
+  font-family: 'days one', sans-serif;
+  font-size: 1.25rem;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.standing{
+  height: 60vh;
 }
