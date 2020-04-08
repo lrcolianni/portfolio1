@@ -142,8 +142,10 @@ h6{
   height: 47px;
 }
 img{
+
   width: 100vw;
   height: 70vw;
+  object-fit: cover;
 }
 .mbutton{
   background-color: #F0577C;
@@ -186,7 +188,7 @@ img{
   align-items: center;
   justify-content: center;
 }
-#bartop{
+#bartops{
   margin-top: 15px;
 }
 #projects{
@@ -426,4 +428,44 @@ a{
 
 .standing{
   height: 60vh;
+}
+
+/* Start of WORK*/
+.jobintro{
+  padding-top: 25px;
+}
+.uxdesign, .printbrand{
+  font-family: 'days one', sans-serif;
+  font-size: 1.25rem;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.print{
+  text-align: center;
+  padding-top: 15px;
+}
+
+
+/* Start of MEDIA QUERIES: iPAD*/
+@media (min-width: 768px) {
+#logo{
+  height: 15vh;
+}
+.bio1{
+  height: 90vh;
+}
+
+.standing{
+  height: 100vh;
+}
+
+.mbutton, .button{
+  width: 25%;
+}
+
+/* Start of MEDIA QUERIES: DESKTOP*/
+@media (min-width: 1281px) {
+
 }
