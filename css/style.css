@@ -70,7 +70,7 @@ body{
 
 h1{
   font-family: 'Marvel', sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   text-align: left;
   margin-left: 0px;
 }
@@ -138,14 +138,10 @@ h6{
 .logo{
   padding-top: 30vw;
 }
-.img{
-  height: 47px;
-}
+
 img{
 
   width: 100vw;
-  height: 70vw;
-  object-fit: cover;
 }
 .mbutton{
   background-color: #F0577C;
@@ -413,9 +409,7 @@ a{
   padding-left: 15px;
   text-align: left;
 }
-.bio1{
-  height: 35vh;
-}
+
 .personallife{
   padding-top: 10px;
 }
