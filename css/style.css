@@ -420,10 +420,6 @@ a{
   padding-top: 15px;
 }
 
-.standing{
-  height: 60vh;
-}
-
 /* Start of WORK*/
 .jobintro{
   padding-top: 25px;
@@ -439,6 +435,8 @@ a{
 .print{
   text-align: center;
   padding-top: 15px;
+  margin-bottom: 50px;
+  align-items: center;
 }
 
 
@@ -447,13 +445,7 @@ a{
 #logo{
   height: 15vh;
 }
-.bio1{
-  height: 90vh;
-}
 
-.standing{
-  height: 100vh;
-}
 
 .mbutton, .button{
   width: 25%;
@@ -461,5 +453,31 @@ a{
 
 /* Start of MEDIA QUERIES: DESKTOP*/
 @media (min-width: 1281px) {
-
+  #logo{
+    width: 25vh;
+  }
+.introabout{
+  background-image: url("../images/skyline.png");
+}
+.logod{
+  width: 5vw;
+}
+.tab{
+  padding-right: 25px;
+}
+.menu{
+  display: none;
+}
+.dropdown-content{
+  display: none;
+}
+.smartboximage, .busybus{
+  width: 50%;
+}
+.smartboxtext,.busybustext{
+  width: 75%;
+}
+.busybus{
+  width:50%;
+}
 }
