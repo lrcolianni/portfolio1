@@ -441,7 +441,7 @@ a{
 
 
 /* Start of MEDIA QUERIES: iPAD*/
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px)  {
 #logo{
   height: 15vh;
 }
@@ -451,19 +451,72 @@ a{
   width: 25%;
 }
 
+.tabs{
+  display: none;
+}
 /* Start of MEDIA QUERIES: DESKTOP*/
-@media (min-width: 1281px) {
+@media only screen and (min-width: 1281px) {
+  /* Bio*/
   #logo{
     width: 25vh;
   }
+  .tabs{
+    display: block;
+  }
+
 .introabout{
   background-image: url("../images/skyline.png");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 60vh;
+}
+.title, .biop{
+  color: white;
+}
+.tabs{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.namelogo{
+  margin-left: 25px;
 }
 .logod{
   width: 5vw;
 }
-.tab{
-  padding-right: 25px;
+
+.title{
+  align: center;
+}
+p, h2,{
+  margin-left: 25px;
+}
+p{
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+h2{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.workgroup{
+  width: 40%;
+}
+.biop{
+  text-align: center;
+}
+.bioimg{
+  width: 40vw;
+}
+.bar{
+  height: 25px;
+}
+.headingright{
+  text-align: right;
+  width: 40%;
+}
+.headingleft{
+  width: 40%;
 }
 .menu{
   display: none;
@@ -471,13 +524,41 @@ a{
 .dropdown-content{
   display: none;
 }
+.desktopname{
+  display: inline-block;
+  margin-left: 25px;
+}
+.tablist{
+  display: inline-block;
+  width: 100vw;
+}
+.namelogo{
+  display: inline-block;
+}
+.desktoplink{
+  display: inline;
+  padding-right: 25px;
+  color: black;
+  vertical-align: middle;
+}
 .smartboximage, .busybus{
-  width: 50%;
+  width: 35%;
 }
 .smartboxtext,.busybustext{
   width: 75%;
 }
 .busybus{
   width:50%;
+}
+.footer{
+  width: 2%;
+  height: 2%;
+}
+  /* homepage*/
+.smartboximage{
+  display: inline-block;
+}
+.busybusimage{
+  display: inline-block;
 }
 }
