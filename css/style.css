@@ -439,7 +439,9 @@ a{
   align-items: center;
 }
 
-
+#desktopintro2{
+  display: none
+}
 /* Start of MEDIA QUERIES: iPAD*/
 @media only screen and (min-width: 768px)  {
 #logo{
@@ -454,14 +456,16 @@ a{
 .tabs{
   display: none;
 }
+#desktopintro2{
+  display: none
+}
+}
 /* Start of MEDIA QUERIES: DESKTOP*/
 @media only screen and (min-width: 1281px) {
   /* Bio*/
   #logo{
-    width: 25vh;
-  }
-  .tabs{
-    display: block;
+    width: 10vh;
+    height: auto;
   }
 
 .introabout{
@@ -476,7 +480,9 @@ a{
 }
 .tabs{
   margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: -45px;
+  display: inline-block;
+  width: 40%;
 }
 .namelogo{
   margin-left: 25px;
@@ -484,9 +490,8 @@ a{
 .logod{
   width: 5vw;
 }
-
-.title{
-  align: center;
+#aboutme{
+  text-align: center;
 }
 p, h2,{
   margin-left: 25px;
@@ -494,19 +499,31 @@ p, h2,{
 p{
   margin-bottom: 25px;
   margin-top: 25px;
+  font-size: 1.5625rem;
 }
 h2{
   margin-top: 25px;
   margin-bottom: 25px;
 }
+h1{
+  font-size: 2.5rem;
+}
+a{
+  font-size: 1.25rem;
+}
 .workgroup{
   width: 40%;
+  display: inline-block;
+
+
 }
 .biop{
   text-align: center;
 }
 .bioimg{
   width: 40vw;
+  display: inline-block;
+  text-align: right;
 }
 .bar{
   height: 25px;
@@ -527,13 +544,16 @@ h2{
 .desktopname{
   display: inline-block;
   margin-left: 25px;
+  vertical-align: middle;
 }
 .tablist{
   display: inline-block;
-  width: 100vw;
+  width: 70vw;
+  vertical-align: middle;
 }
 .namelogo{
   display: inline-block;
+  vertical-align: middle;
 }
 .desktoplink{
   display: inline;
@@ -541,24 +561,53 @@ h2{
   color: black;
   vertical-align: middle;
 }
-.smartboximage, .busybus{
-  width: 35%;
-}
-.smartboxtext,.busybustext{
-  width: 75%;
-}
-.busybus{
-  width:50%;
+
+.work{
+  vertical-align: middle;
 }
 .footer{
   width: 2%;
   height: 2%;
 }
   /* homepage*/
-.smartboximage{
+  #headshot{
+    width: 35vw;
+    height: 50vw;
+  }
+.busybus{
   display: inline-block;
+  width: 48.861%;
 }
 .busybusimage{
+  height: 70vh;
+}
+#smartboxpadding{
+  padding-right: 2%;
+  background-color: white;
+}
+.busybustext{
+  width: 100%;
+}
+.headshot{
+
+}
+.buttonintro{
+  display: none;
+}
+#desktopintro2{
   display: inline-block;
+}
+.desktopintro{
+  padding-left: 0px;
+}
+.logo{
+  padding-left: 25px;
+  padding-top: 30vh;
+}
+.titles{
+  text-align: center;
+}
+#bartops{
+  margin: 0px;
 }
 }
