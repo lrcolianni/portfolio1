@@ -478,15 +478,14 @@ a{
 .title, .biop{
   color: white;
 }
-.tabs{
-  margin-top: 25px;
-  margin-bottom: -45px;
+.navbar{
+  margin: 25px;
+}
+
+.tablist, .desktoplink{
   display: inline-block;
-  width: 40%;
 }
-.namelogo{
-  margin-left: 25px;
-}
+
 .logod{
   width: 5vw;
 }
@@ -520,6 +519,10 @@ a{
 .biop{
   text-align: center;
 }
+.personalgroup, .mystorygroup, .mystorygroup2{
+  display: inline-block;
+  width: 40vw;
+}
 .bioimg{
   width: 40vw;
   display: inline-block;
@@ -529,12 +532,9 @@ a{
   height: 25px;
 }
 .headingright{
-  text-align: right;
-  width: 40%;
+  width: 100%;
 }
-.headingleft{
-  width: 40%;
-}
+
 .menu{
   display: none;
 }
