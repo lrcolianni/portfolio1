@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="961px" height="434px" viewBox="0 0 961 434" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Color-Palatte" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-6" transform="translate(-17.000000, -5.000000)">
+            <text id="Lorem-ipsum-dolor-si" font-family="NotoSans, Noto Sans" font-size="48.83" font-weight="normal" line-spacing="48" fill="#000000">
+                <tspan x="220" y="52">Lorem ipsum dolor sit amet</tspan>
+            </text>
+            <text id="Lorem-ipsum-dolor-si" font-family="NotoSans, Noto Sans" font-size="39.06" font-weight="normal" line-spacing="40" fill="#000000">
+                <tspan x="220" y="181">Lorem ipsum dolor sit amet</tspan>
+            </text>
+            <text id="Lorem-ipsum-dolor-si" font-family="NotoSans, Noto Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#000000">
+                <tspan x="220" y="242">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut sapien quis felis dictum ornare. </tspan>
+                <tspan x="220" y="266">Proin egestas fringilla nisl, vitae aliquam velit consectetur ac. Ut tristique felis ut varius euismod. In </tspan>
+                <tspan x="220" y="290">blandit commodo ligula vitae dapibus. Nullam a dui quis dolor egestas vestibulum in sed leo. Mauris </tspan>
+                <tspan x="220" y="314">gravida mauris in diam egestas, et iaculis lorem dictum. Proin pharetra accumsan lacus, in faucibus </tspan>
+                <tspan x="220" y="338">erat gravida consequat. Suspendisse a ornare tortor, elementum bibendum leo. Donec libero enim, </tspan>
+                <tspan x="220" y="362">rhoncus sed eros non, efficitur venenatis libero. Curabitur a purus efficitur, suscipit ipsum id, finibus </tspan>
+                <tspan x="220" y="386">sem. Cras consectetur consequat dui id mattis. Interdum et malesuada fames ac ante ipsum primis </tspan>
+                <tspan x="220" y="410">in faucibus. Pellentesque mattis ante in placerat pellentesque. Ut lobortis sodales mauris, eu vehicula </tspan>
+                <tspan x="220" y="434">eros feugiat id. Nunc felis eros, auctor id nisi nec, pulvinar rutrum leo.</tspan>
+            </text>
+            <text id="Heebo:-Internal-line" font-family="NotoSans, Noto Sans" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="41.9296875" y="27">Heebo: </tspan>
+                <tspan x="23.484375" y="49">Internal line </tspan>
+                <tspan x="17.6679688" y="71">spacing: 48px</tspan>
+            </text>
+            <text id="Muli:-Internal-line" font-family="NotoSans, Noto Sans" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="50.3164062" y="156">Muli:</tspan>
+                <tspan x="23.484375" y="178">Internal line </tspan>
+                <tspan x="17.6679688" y="200">spacing: 40px</tspan>
+            </text>
+            <text id="Noto-Sans:-Internal" font-family="NotoSans, Noto Sans" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="28.265625" y="251">Noto Sans:</tspan>
+                <tspan x="23.484375" y="273">Internal line </tspan>
+                <tspan x="17.6679688" y="295">spacing: 24px</tspan>
+            </text>
+            <text id="85-px" font-family="NotoSans, Noto Sans" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="231.035156" y="105">85 px</tspan>
+            </text>
+            <rect id="Rectangle" fill="#433F3F" x="240" y="64" width="4" height="22"></rect>
+            <rect id="Rectangle" fill="#433F3F" x="240" y="113" width="4" height="22"></rect>
+            <text id="38-px" font-family="NotoSans, Noto Sans" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="241.77417" y="207">38 px</tspan>
+            </text>
+            <rect id="Rectangle" fill="#433F3F" x="247" y="183" width="3" height="12"></rect>
+            <rect id="Rectangle" fill="#433F3F" x="247" y="209" width="3" height="12"></rect>
+        </g>
+    </g>
+</svg>

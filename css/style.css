@@ -544,8 +544,6 @@ a{
 .workgroup{
   width: 40%;
   display: inline-block;
-
-
 }
 .biop{
   text-align: center;
@@ -608,6 +606,10 @@ a{
   height: 2%;
 }
   /* homepage*/
+  .tabs{
+    display: inline-block;
+    float: right;
+  }
   #headshot{
     width: 35vw;
     height: 50vw;
@@ -626,9 +628,7 @@ a{
 .busybustext{
   width: 100%;
 }
-.headshot{
 
-}
 .buttonintro1{
   background-image: url("../images/computer.png");
   background-size: cover;
@@ -676,6 +676,9 @@ a{
 }
 #bartops{
   margin: 0px;
+}
+.jobintro{
+  color: white;
 }
 
 }
