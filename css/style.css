@@ -134,6 +134,10 @@ h6{
     width: 12vw;
     height: 7vh;
   }
+.logod{
+      width: 12vw;
+      height: 7vh;
+    }
 
 .logo{
   padding-top: 30vw;
@@ -225,6 +229,9 @@ a{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+#smartboximage{
+  background-image: url("../images/smartbox-mobile.png");
 }
 .busybustext {
   text-align: center;
@@ -442,6 +449,15 @@ a{
 #desktopintro2{
   display: none
 }
+.logodesktop{
+  display: none;
+}
+.tablist{
+  display: none;
+}
+.logod, .desktopname{
+  display: none;
+}
 /* Start of MEDIA QUERIES: iPAD*/
 @media only screen and (min-width: 768px)  {
 #logo{
@@ -461,13 +477,21 @@ a{
 }
 }
 /* Start of MEDIA QUERIES: DESKTOP*/
-@media only screen and (min-width: 1281px) {
+@media only screen and (min-width: 1280px) {
   /* Bio*/
   #logo{
     width: 10vh;
     height: auto;
   }
-
+.logomobile{
+  display:none;
+}
+.logodesktop{
+  display: block;
+}
+.buttonintro3, #homebar{
+  display: none;
+}
 .introabout{
   background-image: url("../images/skyline.png");
   background-size: cover;
@@ -492,6 +516,10 @@ a{
 #aboutme{
   text-align: center;
 }
+.data{
+  width: 50vw;
+  height: 60vh;
+}
 p, h2,{
   margin-left: 25px;
 }
@@ -510,6 +538,9 @@ h1{
 a{
   font-size: 1.25rem;
 }
+.deskptoppadding{
+  padding-left: 25px;
+}
 .workgroup{
   width: 40%;
   display: inline-block;
@@ -519,9 +550,14 @@ a{
 .biop{
   text-align: center;
 }
-.personalgroup, .mystorygroup, .mystorygroup2{
+.personalgroup, .mystorygroup, .mystorygroup2, .mystorygroup3{
   display: inline-block;
   width: 40vw;
+}
+#lightbulbimg{
+  height: 80vh;
+  width: 40vw;
+
 }
 .bioimg{
   width: 40vw;
@@ -550,6 +586,8 @@ a{
   display: inline-block;
   width: 70vw;
   vertical-align: middle;
+  float: right;
+  margin-top: 25px;
 }
 .namelogo{
   display: inline-block;
@@ -591,8 +629,34 @@ a{
 .headshot{
 
 }
-.buttonintro{
-  display: none;
+.buttonintro1{
+  background-image: url("../images/computer.png");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 60vh;
+}
+.casestudyintro{
+  background-image: url("../images/smartbox-mobile.png");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 60vh;
+  padding-bottom: 25px;
+}
+.deliverables, .roles{
+  display: inline-block;
+}
+.problem{
+  display: inline-block;
+  width: 40%;
+}
+.dashboard1{
+  display: inline-block;
+}
+#dashboard{
+  width: 50vw;
+  height: 60vh;
 }
 #desktopintro2{
   display: inline-block;
@@ -602,7 +666,10 @@ a{
 }
 .logo{
   padding-left: 25px;
-  padding-top: 30vh;
+  padding-top: 15vh;
+}
+.logod{
+  display: inline-block;
 }
 .titles{
   text-align: center;
@@ -610,4 +677,5 @@ a{
 #bartops{
   margin: 0px;
 }
+
 }
