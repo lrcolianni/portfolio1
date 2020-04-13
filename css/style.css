@@ -458,6 +458,12 @@ a{
 .logod, .desktopname{
   display: none;
 }
+#linkedin{
+  background-image: url("../images/linkedin-mobile.png");
+}
+.afoot{
+  float: none;
+}
 /* Start of MEDIA QUERIES: iPAD*/
 @media only screen and (min-width: 768px)  {
 #logo{
@@ -506,7 +512,12 @@ a{
 .navbar{
   margin: 25px;
 }
-
+.mbutton{
+  margin-bottom: 25px;
+}
+.button{
+  margin-left: 40px;
+}
 .tablist, .desktoplink{
   display: inline-block;
 }
@@ -521,17 +532,22 @@ a{
   width: 50vw;
   height: 60vh;
 }
-p, h2,{
-  margin-left: 25px;
+h2{
+  margin-left: 40px;
+  margin-right: 25px;
 }
 p{
   margin-bottom: 25px;
   margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
   font-size: 1.5625rem;
 }
 h2{
   margin-top: 25px;
   margin-bottom: 25px;
+  font-size: 2.1875rem;
+  padding: 0px;
 }
 h1{
   font-size: 2.5rem;
@@ -539,11 +555,19 @@ h1{
 a{
   font-size: 1.25rem;
 }
+h6{
+  font-size: 1.5rem;
+  padding-bottom: 25px;
+}
+.section{
+  font-size: 2.5rem;
+}
 .mystoryheading{
   padding-left: 25px;
   padding-top: 25px;
   font-family: 'days one', sans-serif;
-  font-size: 1.25rem;
+  font-size: 2.1875rem;
+  margin-left: 25px;
 }
 .paragraphpadding{
   padding-left: 25px;
@@ -685,8 +709,11 @@ display: block;
   height: 60vh;
   padding-bottom: 25px;
 }
-.deliverables, .roles{
-  display: inline-block;
+
+.casestudyintro2{
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
 }
 .problem{
   display: inline-block;
@@ -696,14 +723,15 @@ display: block;
   display: inline-block;
 }
 #dashboard{
-  width: 55vw;
+  height: 70vh;
+  width: auto;
 }
 #desktopintro2{
   display: inline-block;
-  margin-top: 0px;
 }
 .desktopintro{
   padding-left: 0px;
+  margin-left: 0px;
 }
 .logo{
   padding-left: 25px;
@@ -722,10 +750,15 @@ display: block;
   color: white;
 }
 
-/* homepage*/
-
+/* casestudy*/
+.buttonintro{
+  align-items: normal;
+}
 .casestudyintro2{
   display: flex;
+}
+.problem{
+  width: 60%;
 }
 .graphdesktop{
   display: flex;
@@ -738,16 +771,24 @@ display: block;
 .datadesktop, .datadesktop2{
   flex: 1 1;
 }
+.datadesktop{
+  padding-right: 25px;
+}
 .dataheaderdesktop{
   display: none;
 }
 .personadesktop{
   display: flex;
+  justify-content: center;
 }
-.persona{
-  width: 20vw;
-  height: auto;
-  align-items: center;
+#personaman{
+  padding-top: 25px;
+}
+#personaman, #personawoman{
+  width: 40vw;
+  height: 50vh;
+  justify-content: center;
+  padding-left: 40px;
 }
 .personagroup1, .personagroup2{
   flex: 1 1;
@@ -865,7 +906,7 @@ display: block;
 #w1, #p1{
   padding-right: 100px;
 }
-.pwireframe, .ppreference, .pusability{
+.pwireframe, .ppreference, .pusability, .pconclusion{
   width: 60%;
 }
 .preferencedesktop{
@@ -880,9 +921,22 @@ display: block;
 .vdesigndesktop {
   display: flex;
   flex: 1;
+  justify-content: center;
+  padding-top: 25px;
+}
+.homescreen{
+  padding-right: 150px;
 }
 .homescreen, .dashboard{
   width: 30vw;
+  height: auto;
+}
+.conclusiondesktop{
+  display: flex;
+  flex: 1;
+}
+.closing{
+  width: 40vw;
   height: auto;
 }
 }
