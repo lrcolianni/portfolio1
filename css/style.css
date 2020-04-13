@@ -129,7 +129,9 @@ h6{
 .intro{
   display: flex;
 }
-
+.whitebarbelow{
+  border-bottom: 2.5vh white solid;
+}
 #logo{
     width: 12vw;
     height: 7vh;
@@ -493,7 +495,7 @@ a{
 
 
 .mbutton, .button{
-  width: 25%;
+  width: 45%;
 }
 
 .tabs{
@@ -539,9 +541,7 @@ a{
 .mbutton{
   margin-bottom: 25px;
 }
-.button{
-  margin-left: 40px;
-}
+
 .tablist, .desktoplink{
   display: inline-block;
 }
@@ -582,6 +582,9 @@ a{
 h6{
   font-size: 1.5rem;
   padding-bottom: 25px;
+}
+h5{
+  font-size: 2.8125rem;
 }
 .section{
   font-size: 2.5rem;
@@ -672,6 +675,7 @@ display: block;
 }
 #homepagelogo{
   padding-top: 1vh;
+  width: 50vw;
 }
 #homepagelist{
   padding-bottom: 1vh;
@@ -700,7 +704,7 @@ display: block;
     float: right;
   }
   #headshot{
-    width: 27vw;
+    width: 49vw;
     height: auto;
   }
 .busybus{
@@ -712,6 +716,9 @@ display: block;
 }
 #smartboxpadding{
   padding-right: 1%;
+  background-color: white;
+}
+.featured{
   background-color: white;
 }
 .busybustext{
@@ -780,12 +787,18 @@ display: block;
   text-align: center;
 }
 .featured{
-  display: inline-flex;
-
+  display: flex;
+  justify-content: space-between;
 }
 /* casestudy*/
 .buttonintro{
   align-items: normal;
+}
+#smartboxp{
+  color: white;
+  text-align: center;
+  font-size: 1.25rem;
+  width: 90%;
 }
 .casestudyintro2{
   display: flex;
