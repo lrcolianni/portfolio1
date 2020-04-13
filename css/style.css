@@ -477,7 +477,7 @@ a{
 }
 }
 /* Start of MEDIA QUERIES: DESKTOP*/
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 960px) {
   /* Bio*/
   #logo{
     width: 10vh;
@@ -488,6 +488,7 @@ a{
 }
 .logodesktop{
   display: block;
+  padding-bottom: 25px;
 }
 .buttonintro3, #homebar{
   display: none;
@@ -538,22 +539,56 @@ h1{
 a{
   font-size: 1.25rem;
 }
-.deskptoppadding{
+.mystoryheading{
+  padding-left: 25px;
+  padding-top: 25px;
+  font-family: 'days one', sans-serif;
+  font-size: 1.25rem;
+}
+.paragraphpadding{
   padding-left: 25px;
 }
-.workgroup{
-  width: 40%;
-  display: inline-block;
+
+.worklife{
+  display: flex;
+  align-items: center;
+}
+#bio1{
+float: right;
+display: block;
+}
+#bio2{
+float: left;
+display: block;
+
+}
+
+.personallife, .mystory2{
+  padding-top: 0px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.personalgroup{
+  margin-left: 25px;
 }
 .biop{
   text-align: center;
 }
-.personalgroup, .mystorygroup, .mystorygroup2, .mystorygroup3{
-  display: inline-block;
-  width: 40vw;
+.mystory1, .mystory2, .mystory3{
+  display: flex;
+}
+.desktoppadding{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.mystory1, .mystory2, .mystory3{
+  align-items: center;
+}
+.mystory1, .mystory2{
+  margin-bottom: 25px;
 }
 #lightbulbimg{
-  height: 80vh;
   width: 40vw;
 
 }
@@ -581,11 +616,17 @@ a{
   vertical-align: middle;
 }
 .tablist{
-  display: inline-block;
+  display: block;
   width: 70vw;
   vertical-align: middle;
   float: right;
   margin-top: 25px;
+}
+#homepagelogo{
+  padding-top: 1vh;
+}
+#homepagelist{
+  padding-bottom: 1vh;
 }
 .namelogo{
   display: inline-block;
@@ -611,8 +652,8 @@ a{
     float: right;
   }
   #headshot{
-    width: 35vw;
-    height: 50vw;
+    width: 27vw;
+    height: auto;
   }
 .busybus{
   display: inline-block;
@@ -622,7 +663,7 @@ a{
   height: 70vh;
 }
 #smartboxpadding{
-  padding-right: 2%;
+  padding-right: 1%;
   background-color: white;
 }
 .busybustext{
@@ -655,11 +696,11 @@ a{
   display: inline-block;
 }
 #dashboard{
-  width: 50vw;
-  height: 60vh;
+  width: 55vw;
 }
 #desktopintro2{
   display: inline-block;
+  margin-top: 0px;
 }
 .desktopintro{
   padding-left: 0px;
@@ -681,4 +722,21 @@ a{
   color: white;
 }
 
+/* homepage*/
+
+.casestudyintro2{
+  display: flex;
+}
+.problemsolution{
+  display: flex;
+  align-items: center;
+}
+.datadesktop, .datadesktop2{
+  display: inline-block;
+  width: 30%;
+}
+.data{
+  width: 30vw;
+  height: auto;
+}
 }
