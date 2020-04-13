@@ -780,7 +780,7 @@ display: block;
   text-align: center;
 }
 .featured{
-  display: flex;
+  display: inline-flex;
 
 }
 /* casestudy*/
