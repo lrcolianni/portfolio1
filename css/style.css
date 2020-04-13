@@ -1,4 +1,6 @@
-
+*{
+  box-sizing: border-box;
+}
 body{
   background-color: #E5F8F5;
   width: 100%;
@@ -771,7 +773,16 @@ display: block;
 .jobintro{
   color: white;
 }
+.title{
+  text-align: center;
+}
+.buttonintro{
+  text-align: center;
+}
+.featured{
+  display: flex;
 
+}
 /* casestudy*/
 .buttonintro{
   align-items: normal;
