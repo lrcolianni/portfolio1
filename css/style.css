@@ -732,11 +732,11 @@ display: block;
   align-items: center;
 }
 .data{
-  width: 30%;
+  width: 15vw;
   height: auto;
 }
-.datadesktop2{
-  width: 40%;
+.datadesktop, .datadesktop2{
+  flex: 1 1;
 }
 .dataheaderdesktop{
   display: none;
@@ -749,5 +749,140 @@ display: block;
   height: auto;
   align-items: center;
 }
+.personagroup1, .personagroup2{
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+}
+.persona{
+  padding-top: 25px;
 
+}
+.analysislogo{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.glogo, .plogo{
+  padding-right: 25px;
+}
+.companalysis{
+  width: 30vw;
+  height: auto;
+}
+.userstories{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+#userstory1, #userstory2, #userstory3{
+  width: 30vw;
+  height: auto;
+}
+.userflowdesktop{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.flow{
+  width: 45vw;
+  height: auto;
+}
+#userflow1{
+  padding-right: 25px;
+}
+.sketchdesktop{
+  display: flex;
+  flex: 1;
+}
+.logosketch{
+  width: 40vw;
+  height: auto;
+  vertical-align: middle;
+}
+.psketch{
+  align-self: center;
+  width: 60%;
+}
+.mockdesktop{
+  display: flex;
+  flex: 1;
+}
+.mock{
+  width: 30vw;
+  height: auto;
+}
+.pmock{
+  align-self: center;
+  width: 60%;
+}
+.logofinals{
+  display: flex;
+  flex: 1;
+}
+.logofinal1, .logofinal2{
+  width: 30vw;
+  height: auto;
+}
+.pfinal{
+  align-self: center;
+  width: 60%;
+  text-align: left;
+}
+.colordesktop{
+  display: flex;
+  flex: 1;
+}
+.color{
+  width: 30vw;
+  height: auto;
+}
+.pcolor{
+  align-self: center;
+  width: 60%;
+}
+.typodesktop{
+  display: flex;
+  flex: 1;
+}
+.typo{
+  width: 30vw;
+  height: auto;
+}
+.ptypo{
+  align-self: center;
+  width: 60%;
+}
+.wireframedesktop{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.wireframe{
+  width: 40vw;
+  height: auto;
+}
+#w1, #p1{
+  padding-right: 100px;
+}
+.pwireframe, .ppreference, .pusability{
+  width: 60%;
+}
+.preferencedesktop{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.preference{
+  width: 40vw;
+  height: auto;
+}
+.vdesigndesktop {
+  display: flex;
+  flex: 1;
+}
+.homescreen, .dashboard{
+  width: 30vw;
+  height: auto;
+}
 }
