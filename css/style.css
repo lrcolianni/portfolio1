@@ -727,128 +727,19 @@ display: block;
 .casestudyintro2{
   display: flex;
 }
-.problemsolution{
+.graphdesktop{
   display: flex;
   align-items: center;
 }
-.datadesktop, .datadesktop2, .personagroup1, .personagroup2{
-  display: inline-block;
+.data{
   width: 30%;
+  height: auto;
 }
-.datadesktop{
-  padding-right: 25vw;
-  padding-left: 7vw;
+.datadesktop2{
+  width: 40%;
 }
-
 .dataheaderdesktop{
   display: none;
 }
-#datas{
-  margin-right: 30px;
-}
-.datap{
-  text-align: left;
 
-}
-.graphdesktop, .analysislogo{
-  align-items: center;
-}
-.data, .persona{
-  width: 30vw;
-  height: auto;
-}
-.personadesktop{
-  align-items: center;
-}
-.glogo, .dlogo, .plogo{
-  display: inline-block;
-  width: 30%;
-  padding-right: 25px;
-}
-.glogo{
-  padding-left: 25px;
-}
-.companalysis{
-  width: 100%;
-}
-.userstories, .userflowdesktop{
-  display: inline-block;
-  align-items: center;
-}
-#userstory1, #userstory2, #userstory3{
-  width: 30%;
-  height: auto;
-}
-.flow{
-  width: 40%;
-  height: auto;
-}
-.psketch, .logosketch{
-  display: inline-block;
-  width: 40%;
-}
-.pmock, .mocks{
-  display: inline-block;
-  width: 40%;
-}
-.mocks{
-  width: 30%;
-  height: auto;
-}
-.logofinals{
-  display: inline-block;
-}
-.pfinal, .logofinal{
-  display: inline-block;
-  width: 40%;
-}
-.colordesktop{
-  display: inline-block;
-}
-.color{
-  width: 30%;
-  height: auto;
-  display: inline-block;
-}
-.pcolor{
-  display: inline-block;
-  width: 40%;
-}
-.typodesktop{
-  display: inline-block;
-}
-.typo{
-  display: inline-block;
-  width: 40%;
-}
-.ptypo{
-  display: inline-block;
-  width: 40%;
-}
-#w1, #w2{
-  display: inline-block;
-  width: 40%;
-  height:auto;
-}
-#p1, #p2{
-  display: inline-block;
-  width: 40%;
-  height:auto;
-}
-.vdesigndesktop1, .vdesigndesktop2{
-  display: inline-block;
-  width: 40%;
-}
-.homescreen, .dashboard{
-  width: 60%;
-  height: auto;
-}
-.conclusiondesktop{
-  display: inline-block;
-}
-.closing, .pconclusion{
-  width: 40%;
-  height: auto;
-  display: inline-block;
-}
 }
