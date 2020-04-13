@@ -4,9 +4,7 @@ body{
   width: 100%;
 
 }
-.footer:active, a:active, .menu:active{
-  background-color: #99C24D;
-}
+
 
 .menu{
   height: 7px;
@@ -463,6 +461,7 @@ a{
 }
 .afoot{
   float: none;
+
 }
 /* Start of MEDIA QUERIES: iPAD*/
 @media only screen and (min-width: 768px)  {
@@ -489,6 +488,7 @@ a{
     width: 10vh;
     height: auto;
   }
+
 .logomobile{
   display:none;
 }
