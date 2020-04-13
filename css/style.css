@@ -735,6 +735,12 @@ display: block;
   display: inline-block;
   width: 30%;
 }
+.dataheaderdesktop{
+  display: none;
+}
+#datas{
+  margin-right: 30px;
+}
 .data{
   width: 30vw;
   height: auto;
