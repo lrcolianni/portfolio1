@@ -321,6 +321,7 @@ a{
 }
 #buttontop{
   margin-top: 15px;
+  margin-left: 40px;
 }
 #dashboard{
   height: 100vw;
@@ -393,6 +394,10 @@ a{
   height: 50vh;
   padding-bottom: 15px;
   width: 100vw;
+}
+.smartboxp{
+  color: white;
+  text-align: center;
 }
 .homescreen{
   height: 50vh;
@@ -494,10 +499,16 @@ a{
 }
 
 
-.mbutton, .button{
+.mbutton{
   width: 30%;
 }
 
+.button{
+  width: 20%;
+}
+.userstoryp, .flowp{
+  text-align: left;
+}
 .tabs{
   display: none;
 }
@@ -687,14 +698,17 @@ display: block;
 }
 .tablist{
   display: block;
-  width: 70vw;
+  width: 50vw;
   vertical-align: middle;
   float: right;
   margin-top: 25px;
 }
 #homepagelogo{
   padding-top: 1vh;
-  width: 50vw;
+  width: 67vw;
+}
+.roselogo{
+  padding-top: 10vh;
 }
 #homepagelist{
   padding-bottom: 1vh;
@@ -778,6 +792,9 @@ display: block;
 }
 #desktopintro2{
   display: inline-block;
+}
+#desktopintro3{
+  width: 50%;
 }
 .desktopintro{
   padding-left: 0px;
