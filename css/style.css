@@ -495,7 +495,7 @@ a{
 
 
 .mbutton, .button{
-  width: 45%;
+  width: 25%;
 }
 
 .tabs{
@@ -524,6 +524,9 @@ a{
 }
 .buttonintro3, #homebar{
   display: none;
+}
+.homebutton{
+  width: 45%;
 }
 .introabout{
   background-image: url("../images/skyline.png");
@@ -565,7 +568,10 @@ p{
   margin-top: 25px;
   margin-left: 25px;
   margin-right: 25px;
-  font-size: 1.5625rem;
+  font-size: 1.25rem;
+}
+.pwidth{
+  width: 50%;
 }
 h2{
   margin-top: 25px;
@@ -704,7 +710,7 @@ display: block;
     float: right;
   }
   #headshot{
-    width: 49vw;
+    width: 30vw;
     height: auto;
   }
 .busybus{
