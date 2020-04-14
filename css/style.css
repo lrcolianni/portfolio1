@@ -495,7 +495,7 @@ a{
 
 
 .mbutton, .button{
-  width: 25%;
+  width: 30%;
 }
 
 .tabs{
@@ -512,8 +512,21 @@ a{
     width: 10vh;
     height: auto;
   }
+  .homebutton{
+    text-align: center;
+  }
+  .homebutton2{
+    width: 40%;
+  }
 .logohome{
   float: none;
+}
+#calendar, #email{
+  width: 15%;
+}
+.uxdesign{
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .logomobile{
   display:none;
