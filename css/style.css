@@ -80,7 +80,7 @@ h1{
   text-align: left;
 }
 
-h2{
+h2, .mystoryheading{
   font-family: 'days one', sans-serif;
   font-size: 1.25rem;
   text-align: left;
@@ -197,6 +197,7 @@ img{
   padding-top: 15px;
   padding-bottom: 0px;
 }
+
 a{
   display: inline;
   float: right;
@@ -318,6 +319,8 @@ a{
   text-align: center;
   margin-bottom: 25px;
   margin-top: 10px;
+  margin: 0 auto;
+  width: 50%;
 }
 #buttontop{
   margin-top: 15px;
@@ -396,7 +399,7 @@ a{
   width: 100vw;
 }
 .smartboxp{
-  color: white;
+  color: black;
   text-align: center;
 }
 .homescreen{
@@ -444,6 +447,9 @@ a{
   text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+#printbrand{
+  width: 30%;
 }
 
 .print{
@@ -497,7 +503,9 @@ a{
 #logo{
   height: 15vh;
 }
-
+#resume{
+  margin-bottom: 25px;
+}
 
 .mbutton{
   width: 30%;
@@ -515,7 +523,11 @@ a{
 #desktopintro2{
   display: none
 }
+#desktopintro3{
+  display: none;
 }
+}
+
 /* Start of MEDIA QUERIES: DESKTOP*/
 @media only screen and (min-width: 960px) {
   /* Bio*/
@@ -526,17 +538,21 @@ a{
   a{
     float: none;
   }
+.smartboxp{
+  color: white;
+}
   .homebutton{
     text-align: center;
   }
   .homebutton2{
     width: 40%;
   }
+
 .logohome{
   float: none;
 }
 #calendar, #email{
-  width: 15%;
+  width: 20%;
 }
 .uxdesign{
   margin-top: 25px;
@@ -552,15 +568,24 @@ a{
 .buttonintro3, #homebar{
   display: none;
 }
-.homebutton{
-  width: 45%;
-}
+
 .introabout{
   background-image: url("../images/skyline.png");
   background-size: cover;
   background-position: center;
   width: 100vw;
   height: 60vh;
+  vertical-align: middle;
+  display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+
+.casestudyintro, .buttonintro1{
+  vertical-align: middle;
+  display:flex;
+    align-items:center;
+    justify-content:center;
 }
 .title, .biop{
   color: white;
@@ -800,8 +825,12 @@ display: block;
   display: inline-block;
 }
 #desktopintro3{
-  width: 50%;
+  width: 30%;
   margin: 0 auto;
+  display: block;
+}
+#homebutton{
+  width: 40%;
 }
 .desktopintro{
   padding-left: 0px;
@@ -1027,5 +1056,8 @@ display: block;
 .closing{
   width: 40vw;
   height: auto;
+}
+#prototype, #resume{
+  width: 20%;
 }
 }
