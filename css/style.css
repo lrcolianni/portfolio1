@@ -74,6 +74,16 @@ h1{
   text-align: left;
   margin-left: 0px;
 }
+.headshot{
+  width: 30vw;
+  padding-right: 15px;
+
+}
+#headshot{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 
 .name{
   color: #F0577C;
@@ -118,13 +128,6 @@ h6{
   padding-top: 15px;
 }
 
-.headshot{
-  padding-right: 15px;
-}
-#headshot{
-  height: 80vw;
-  width: 50vw;
-}
 
 .intro{
   display: flex;
@@ -205,7 +208,7 @@ a{
   font-family: 'days one', sans-serif;
 }
 .smartboximage{
-  background-image: url("../images/smartbox-mobile.png");
+  background-image: url("../images/smartbox-mobile.jpg");
   background-color: #cccccc;
   height: 80vw;
   width: 100vw;
@@ -234,7 +237,7 @@ a{
   position: relative;
 }
 #smartboximage{
-  background-image: url("../images/smartbox-mobile.png");
+  background-image: url("../images/smartbox-mobile.jpg");
 }
 .busybustext {
   text-align: center;
@@ -819,7 +822,7 @@ display: block;
   height: 60vh;
 }
 .casestudyintro{
-  background-image: url("../images/smartbox-mobile.png");
+  background-image: url("../images/smartbox-mobile.jpg");
   background-size: cover;
   background-position: center;
   width: 100vw;
