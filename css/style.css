@@ -523,6 +523,9 @@ a{
     width: 10vh;
     height: auto;
   }
+  a{
+    float: none;
+  }
   .homebutton{
     text-align: center;
   }
@@ -703,6 +706,9 @@ display: block;
   float: right;
   margin-top: 25px;
 }
+.desktoplink{
+  float: right;
+}
 #homepagelogo{
   padding-top: 1vh;
   width: 67vw;
@@ -795,6 +801,7 @@ display: block;
 }
 #desktopintro3{
   width: 50%;
+  margin: 0 auto;
 }
 .desktopintro{
   padding-left: 0px;
