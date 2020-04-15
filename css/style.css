@@ -374,7 +374,6 @@ a{
 }
 
 .logofinal{
-  height: 15vw;
   width: 60vw;
   text-align: center;
 }
@@ -498,6 +497,19 @@ a{
 .logohome{
   float: none;
 }
+#desktopintro3{
+  display: none;
+}
+#viewwork{
+  text-align: center;
+  float: none;
+
+}
+.homebutton{
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
 /* Start of MEDIA QUERIES: iPAD*/
 @media only screen and (min-width: 768px)  {
 #logo{
@@ -525,6 +537,16 @@ a{
 }
 #desktopintro3{
   display: none;
+}
+.homebutton{
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#viewwork{
+  text-align: center;
+  float: none;
+
 }
 }
 
