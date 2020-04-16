@@ -22,7 +22,8 @@ body{
   right: 0;
   top: 0;
   background-color: #088884;
-  min-width: 160px;
+  min-width: 90vw;
+  text-align: center;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   margin-top: 60px;
@@ -31,7 +32,7 @@ body{
 
 .dropdown-content a {
   color: white;
-  padding: 12px 16px;
+  padding: 30px 20px;
   text-decoration: none;
   display: block;
   font-size: 0.75rem;
@@ -464,6 +465,9 @@ a{
 #desktopintro2{
   display: none
 }
+#home1, #aboutme1, #mywork1{
+  background-color: #546A2A;
+}
 .logodesktop{
   display: none;
 }
@@ -513,10 +517,38 @@ a{
   margin-top: 25px;
   margin-bottom: 25px;
 }
+
+/* Print*/
+.printone, #printbar{
+  display: none;
+}
+.printdesktop{
+  display: none;
+}
+.printtwo{
+  display: flex;
+  flex-direction: column;
+}
+.printheading, .printtitle, .printbutton2{
+  text-align: center;
+}
+.print, .printp{
+  margin-bottom: 15px;
+}
+.printbutton2{
+  text-align: center;
+  width: 100%;
+}
+.printbutton{
+  text-align: center;
+}
 /* Start of MEDIA QUERIES: iPAD*/
 @media only screen and (min-width: 768px)  {
 #logo{
   height: 15vh;
+}
+.dropdown-content{
+  min-width: 50vw;
 }
 #resume{
   margin-bottom: 25px;
@@ -576,6 +608,9 @@ a{
 .logohome{
   float: none;
 }
+#aboutme2, #mywork{
+  color: #088884;
+}
 #calendar, #email{
   width: 20%;
 }
@@ -595,7 +630,7 @@ a{
 }
 
 .introabout{
-  background-image: url("../images/skyline.png");
+  background-image: url("../images/skyline.jpg");
   background-size: cover;
   background-position: center;
   width: 100vw;
@@ -815,7 +850,7 @@ display: block;
 }
 
 .buttonintro1{
-  background-image: url("../images/computer.png");
+  background-image: url("../images/computer.jpg");
   background-size: cover;
   background-position: center;
   width: 100vw;
@@ -1084,5 +1119,33 @@ display: block;
 }
 #prototype, #resume{
   width: 20%;
+}
+.printone{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.printimg{
+  width: 30vw;
+}
+.printp{
+  width: 30%;
+}
+#printbutton{
+  width: 70%;
+}
+.printbutton2{
+  text-align: center;
+  margin-top: 25px;
+}
+.printheading{
+  text-align: center;
+  font-family: 'days one', sans-serif;
+}
+.printmobile{
+  display: none;
+}
+.printdesktop{
+  display:
 }
 }
