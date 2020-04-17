@@ -176,6 +176,7 @@ img{
 }
 #buttontop1{
   margin-top: 15px;
+  margin-left: 40px;
 }
 
 .button{
@@ -547,8 +548,14 @@ a{
   text-align: center;
   width: 100%;
 }
+#printbutton{
+    float: none;
+    margin-top: 25px;
+
+}
 .printbutton{
   text-align: center;
+
 }
 /* Start of MEDIA QUERIES: iPAD*/
 @media only screen and (min-width: 768px)  {
@@ -975,9 +982,11 @@ display: block;
 }
 #personaman, #personawoman{
   width: 40vw;
-  height: 50vh;
   justify-content: center;
   padding-left: 40px;
+}
+.swot{
+  text-align: left;
 }
 .personagroup1, .personagroup2{
   flex: 1 1;
@@ -1158,5 +1167,8 @@ display: block;
 }
 .printdesktop{
   display:
+}
+#printbar{
+  display: block;
 }
 }
