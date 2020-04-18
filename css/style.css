@@ -319,8 +319,12 @@ a{
   text-align: center;
 
 }
-
-
+#smartboxp{
+  color: white;
+}
+mark{
+  background-color: #D0E3AE;
+}
 /* Start of case study*/
 .titles{
   display: inline;
@@ -441,19 +445,24 @@ a{
   text-align: left;
 }
 
-.personallife{
-  padding-top: 10px;
-}
+
 .mystory{
   font-family: 'days one', sans-serif;
   font-size: 1.25rem;
   text-align: center;
   padding-top: 15px;
 }
-
+.bioheading1{
+  padding-top: 25px;
+}
+.deskptoppadding, .mystoryheading{
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
 /* Start of WORK*/
 .jobintro{
   padding-top: 25px;
+    max-width: 620px;
 }
 .uxdesign, .printbrand{
   font-family: 'days one', sans-serif;
@@ -469,7 +478,7 @@ a{
 .print{
   text-align: center;
   padding-top: 15px;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
   align-items: center;
 }
 
@@ -547,12 +556,12 @@ a{
 .printheading, .printtitle, .printbutton2{
   text-align: center;
 }
-.print, .printp{
-  margin-bottom: 15px;
-}
+
 .printbutton2{
   text-align: center;
   width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 #printbutton{
     float: none;
@@ -604,11 +613,19 @@ a{
   float: none;
 
 }
+.footer{
+  width: 3vw;
+  height: 3vh;
+}
 }
 
 /* Start of MEDIA QUERIES: DESKTOP*/
 @media only screen and (min-width: 960px) {
   /* Bio*/
+  .largebody{
+    max-width: 1200px;
+    margin:auto;
+  }
   #logo{
     width: 10vh;
     height: auto;
@@ -619,9 +636,9 @@ a{
   a{
     float: none;
   }
-  mark{
-    background-color: #D0E3AE;
-  }
+.viewwork{
+  margin-bottom: 40px;
+}
 .smartboxp{
   color: white;
 }
@@ -779,6 +796,7 @@ display: block;
 }
 .biop{
   text-align: center;
+  max-width: 620px;
 }
 .mystory1, .mystory2, .mystory3{
   display: flex;
@@ -1155,7 +1173,7 @@ display: block;
   height: auto;
 }
 #prototype, #resume{
-  width: 20%;
+  width: 30%;
 }
 .printone{
   display: flex;
