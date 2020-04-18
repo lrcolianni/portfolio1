@@ -74,6 +74,7 @@ h1{
   font-size: 1.5rem;
   text-align: left;
   margin-left: 0px;
+  color: #444444;
 }
 .headshot{
   width: 50vw;
@@ -96,6 +97,7 @@ h2, .mystoryheading{
   font-size: 1.25rem;
   text-align: left;
   padding-left: 15px;
+  color: #444444;
 }
 
 p{
@@ -106,6 +108,7 @@ p{
   padding-left: 15px;
   padding-right: 15px;
   line-height: 130%;
+  color: #444444;
 }
 #check{
   text-align: center;
@@ -121,6 +124,7 @@ h6{
   font-family: 'Marvel', sans-serif;
   text-align: center;
   font-size: 0.875rem;
+  color: #444444;
 }
 .section{
   font-family: 'days one', sans-serif;
@@ -128,6 +132,7 @@ h6{
   font-size: 1.5625rem;
   padding-bottom: 15px;
   padding-top: 15px;
+  color: #444444;
 }
 
 
@@ -213,6 +218,7 @@ a{
   float: right;
   font-size: 1rem;
   font-family: 'days one', sans-serif;
+    color: #444444;
 }
 .smartboximage{
   background-image: url("../images/smartbox-mobile.jpg");
@@ -269,7 +275,7 @@ a{
 .bar{
   background-color: white;
   height: 2.5vh;
-  width: 100vw;
+  width: 100%;
 }
 
 .footbutton{
@@ -451,7 +457,7 @@ a{
 }
 .uxdesign, .printbrand{
   font-family: 'days one', sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -613,6 +619,9 @@ a{
   a{
     float: none;
   }
+  mark{
+    background-color: #D0E3AE;
+  }
 .smartboxp{
   color: white;
 }
@@ -710,7 +719,7 @@ h2{
   padding: 0px;
 }
 h1{
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 a{
   font-size: 1.25rem;
@@ -734,6 +743,11 @@ h5{
 }
 .paragraphpadding{
   padding-left: 25px;
+  margin-bottom: 0px;
+}
+.deskptoppadding{
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .worklife{
@@ -756,8 +770,12 @@ display: block;
   flex-direction: row-reverse;
   align-items: center;
 }
-.personalgroup{
-  margin-left: 25px;
+
+.workgroup, .mystorygroup, .mystorygroup2, .mystorygroup3{
+  flex: 1;
+}
+.mystorygroup{
+  flex: 1;
 }
 .biop{
   text-align: center;
@@ -772,9 +790,7 @@ display: block;
 .mystory1, .mystory2, .mystory3{
   align-items: center;
 }
-.mystory1, .mystory2{
-  margin-bottom: 25px;
-}
+
 #lightbulbimg{
   width: 40vw;
 
@@ -831,6 +847,8 @@ display: block;
   padding-right: 25px;
   color: black;
   vertical-align: middle;
+  text-decoration: none;
+  color: #444444;
 }
 
 .work{
@@ -846,8 +864,7 @@ display: block;
     float: right;
   }
   #headshot{
-    width: 30vw;
-    height: auto;
+    height: 100%;
   }
 .busybus{
   display: inline-block;
