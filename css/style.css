@@ -86,7 +86,9 @@ h1{
   width: 100%;
   object-fit: cover;
 }
-
+.intro{
+  display: flex;
+}
 .name{
   color: #F0577C;
   text-align: left;
@@ -136,9 +138,7 @@ h6{
 }
 
 
-.intro{
-  display: flex;
-}
+
 .whitebarbelow{
   border-bottom: 2.5vh white solid;
 }
@@ -175,7 +175,6 @@ img{
 .buttonintro{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   margin-bottom: 15px;
 }
@@ -251,6 +250,7 @@ a{
 }
 #smartboximage{
   background-image: url("../images/smartbox-mobile.jpg");
+  border-bottom: 1.5rem white solid;
 }
 .busybustext {
   text-align: center;
@@ -534,7 +534,7 @@ mark{
 }
 .viewwork{
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
 }
 .homebutton{
   text-align: center;
@@ -572,6 +572,11 @@ mark{
   text-align: center;
 
 }
+
+
+
+
+
 /* Start of MEDIA QUERIES: iPAD*/
 @media only screen and (min-width: 768px)  {
 #logo{
@@ -580,10 +585,28 @@ mark{
 .dropdown-content{
   min-width: 50vw;
 }
+.plogo, .glogo, .dlogo, .persona{
+  text-align: center;
+}
 #resume{
   margin-bottom: 25px;
 }
+.persona, .companalysis, #userstory1, #userstory2, #userstory3{
+  max-width: 600px;
+  margin: auto;
+}
+.userstories{
+  text-align: center;
+}
+.userstorycenter, .personacenter{
+  text-align: center;
+}
 
+.data,{
+  max-width: 300px;
+  margin: auto;
+  height: auto;
+}
 .mbutton{
   width: 30%;
 }
@@ -626,6 +649,9 @@ mark{
     max-width: 1200px;
     margin:auto;
     width: 100%;
+  }
+  #smartboximage{
+    border-bottom: 0px;
   }
   #logo{
     width: 10vh;
@@ -727,9 +753,7 @@ p{
   margin-right: 25px;
   font-size: 1.25rem;
 }
-.pwidth{
-  width: 50%;
-}
+
 h2{
   margin-top: 25px;
   margin-bottom: 25px;
@@ -795,7 +819,7 @@ display: block;
 .mystorygroup{
   flex: 1;
 }
-.biop{
+.biop, .smartboxp{
   text-align: center;
   max-width: 620px;
 }
@@ -822,9 +846,7 @@ display: block;
 .bar{
   height: 25px;
 }
-.headingright{
-  width: 100%;
-}
+
 
 .menu{
   display: none;
@@ -980,6 +1002,13 @@ display: block;
 .buttonintro{
   align-items: normal;
 }
+
+.deliverables, .datadesktop, .datalearned{
+  margin-bottom: 50px;
+}
+#datalearned{
+  padding-bottom: 50px;
+}
 #smartboxp{
   color: white;
   text-align: center;
@@ -1041,6 +1070,7 @@ display: block;
 .glogo, .plogo{
   padding-right: 25px;
 }
+
 .companalysis{
   width: 30vw;
   height: auto;
@@ -1050,7 +1080,7 @@ display: block;
   flex: 1;
   justify-content: center;
 }
-#userstory1, #userstory2, #userstory3{
+.userstorycenter{
   width: 30vw;
   height: auto;
 }
