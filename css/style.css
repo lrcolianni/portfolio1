@@ -1006,7 +1006,7 @@ display: block;
 .deliverables, .datadesktop, .datalearned{
   margin-bottom: 50px;
 }
-#datalearned{
+#datalearned, .preferencedesktop{
   padding-bottom: 50px;
 }
 #smartboxp{
@@ -1162,6 +1162,7 @@ display: block;
   display: flex;
   flex: 1;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .wireframe{
   width: 40vw;
