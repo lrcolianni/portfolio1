@@ -436,6 +436,7 @@ mark{
 
 #conclusion{
   padding-bottom: 0px;
+  margin-bottom: 40px;
 }
 
 /* Start of about me*/
@@ -592,7 +593,7 @@ mark{
   margin-bottom: 25px;
 }
 .persona, .companalysis, #userstory1, #userstory2, #userstory3{
-  max-width: 600px;
+  max-width: 90%;
   margin: auto;
 }
 .userstories{
@@ -1003,7 +1004,7 @@ display: block;
   align-items: normal;
 }
 
-.deliverables, .datadesktop, .datalearned{
+.deliverables, .graphdesktop, .datalearned{
   margin-bottom: 50px;
 }
 #datalearned, .preferencedesktop{
@@ -1016,6 +1017,11 @@ display: block;
   width: 90%;
 }
 .casestudyintro2{
+  display: flex;
+}
+.problemsolution{
+  justify-content: center;
+  vertical-align: middle;
   display: flex;
 }
 .problem{
