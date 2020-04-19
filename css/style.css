@@ -93,6 +93,9 @@ h1{
   color: #F0577C;
   text-align: left;
 }
+b{
+  font-weight: bold;
+}
 
 h2, .mystoryheading{
   font-family: 'days one', sans-serif;
@@ -713,6 +716,18 @@ mark{
     justify-content:center;
   }
 
+  .introabout2{
+    background-image: url("../images/computer.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+    vertical-align: middle;
+    display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+
 .casestudyintro, .buttonintro1{
   vertical-align: middle;
   display:flex;
@@ -760,6 +775,9 @@ h2{
   margin-bottom: 25px;
   font-size: 2.1875rem;
   padding: 0px;
+}
+h3{
+  color: #444444;
 }
 h1{
   font-size: 3rem;
@@ -1086,10 +1104,7 @@ display: block;
   flex: 1;
   justify-content: center;
 }
-.userstorycenter{
-  width: 30vw;
-  height: auto;
-}
+
 .userflowdesktop{
   display: flex;
   flex: 1;
@@ -1234,6 +1249,7 @@ display: block;
 .printheading{
   text-align: center;
   font-family: 'days one', sans-serif;
+  color: #444444;
 }
 .printmobile{
   display: none;
