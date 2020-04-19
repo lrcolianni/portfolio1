@@ -93,9 +93,7 @@ h1{
   color: #F0577C;
   text-align: left;
 }
-b{
-  font-weight: bold;
-}
+
 
 h2, .mystoryheading{
   font-family: 'days one', sans-serif;
@@ -1240,7 +1238,8 @@ display: block;
   width: 30%;
 }
 #printbutton{
-  width: 70%;
+  width: 100%;
+  display: block;
 }
 .printbutton2{
   text-align: center;
