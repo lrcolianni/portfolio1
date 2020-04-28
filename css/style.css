@@ -584,8 +584,39 @@ mark{
 
 }
 
-
-
+.contactme{
+  background-color: #D0E3AE;
+  margin: 0 auto;
+  width: 90%;
+  padding: 5vw;
+}
+input, label{
+  width: 80%;
+  padding-bottom: 5vw;
+  padding-top: 5vw;
+}
+label{
+  font-family: 'days one', sans-serif;
+  font-size: 1rem;
+}
+input{
+  font-family: 'Orienta', sans-serif;
+  font-size: 0.625rem;
+}
+#message{
+  width: 80%;
+}
+#submitbutton{
+  width 20%;
+  float: none;
+  font-family: 'days one', sans-serif;
+  font-size: 1rem;
+  margin: 0 auto;
+  margin-top: 5vh;
+}
+.contactbutton{
+  text-align: center;
+}
 
 
 /* Start of MEDIA QUERIES: iPAD*/
@@ -979,12 +1010,7 @@ display: block;
   background-image: url("../images/contact-header.jpg");
   height: 20vw;
 }
-.contactme{
-  background-color: #D0E3AE;
-}
-#submitbutton{
-  width 20%;
-}
+
 .casestudyintro2{
   display: flex;
   justify-content: left;
