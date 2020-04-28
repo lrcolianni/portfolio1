@@ -110,8 +110,9 @@ p{
   padding-bottom: 15px;
   padding-left: 15px;
   padding-right: 15px;
-  line-height: 130%;
+  line-height: 150%;
   color: #444444;
+
 }
 #check{
   text-align: center;
@@ -167,6 +168,7 @@ img{
   width: 50%;
   color: white;
   text-align: center;
+  text-decoration: none;
 }
 .mbutton:hover{
   background-color: #7B293C;
@@ -192,6 +194,7 @@ img{
   width: 50%;
   color: #F0577C;
   text-align: center;
+  text-decoration: none;
 }
 .smartboxtext{
   display: flex;
@@ -267,6 +270,12 @@ a{
   text-align: center;
   color: white;
 }
+.fieldset{
+    display: flex;
+  }
+  input, label{
+    display: flex;
+  }
 .id {
   position: absolute;
   top: 50%;
@@ -589,6 +598,8 @@ mark{
 }
 .plogo, .glogo, .dlogo, .persona{
   text-align: center;
+  align-self: center;
+  align-self: flex-start;
 }
 #resume{
   margin-bottom: 25px;
@@ -618,6 +629,9 @@ mark{
 }
 .userstoryp, .flowp{
   text-align: left;
+  width: 60%;
+  align-self: center;
+  align-self: flex-start;
 }
 .tabs{
   display: none;
@@ -956,8 +970,21 @@ display: block;
   width: 100%;
   height: 60vh;
   padding-bottom: 25px;
+  vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
+#contactheader{
+  background-image: url("../images/contact-header.jpg");
+  height: 20vw;
+}
+.contactme{
+  background-color: #D0E3AE;
+}
+#submitbutton{
+  width 20%;
+}
 .casestudyintro2{
   display: flex;
   justify-content: left;
@@ -1063,6 +1090,8 @@ display: block;
 .personadesktop{
   display: flex;
   justify-content: center;
+  align-self: center;
+  align-self:flex-start;
 }
 #personaman{
   padding-top: 25px;
@@ -1074,6 +1103,7 @@ display: block;
 }
 .swot{
   text-align: left;
+  width: 60%;
 }
 .personagroup1, .personagroup2{
   flex: 1 1;
