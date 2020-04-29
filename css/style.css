@@ -589,40 +589,65 @@ mark{
   margin: 0 auto;
   width: 90%;
   padding: 5vw;
+  margin-bottom:
 }
-input, label{
+label{
   width: 80%;
-  padding-bottom: 5vw;
-  padding-top: 5vw;
+
 }
 label{
   font-family: 'days one', sans-serif;
   font-size: 1rem;
 }
-input{
+input, #message{
   font-family: 'Orienta', sans-serif;
   font-size: 0.625rem;
+  width: 100%;
 }
 #message{
-  width: 80%;
+  width: 100%;
+}
+.contactp{
+  text-align: center;
 }
 #submitbutton{
-  width 20%;
+  width: auto;
+  padding: 20px;
   float: none;
   font-family: 'days one', sans-serif;
   font-size: 1rem;
   margin: 0 auto;
+  background-color: #F0577C;
+  border-radius: 6px;
+  color: white;
   margin-top: 5vh;
 }
 .contactbutton{
   text-align: center;
 }
-
-
+#padding3{
+  margin-top: 3vh;
+}
+.contactp{
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.contact-input{
+  width: 100%;
+}
+.padding1{
+  padding-bottom: 3vh;
+}
+.padding2{
+  padding-bottom: 3vh;
+}
 /* Start of MEDIA QUERIES: iPAD*/
 @media only screen and (min-width: 768px)  {
 #logo{
   height: 15vh;
+}
+.contactme{
+  max-width: 500px;
 }
 .dropdown-content{
   min-width: 50vw;
@@ -696,6 +721,24 @@ input{
     max-width: 1200px;
     margin:auto;
     width: 100%;
+  }
+  .contactme{
+    max-width: 500px;
+  }
+  label{
+    font-size: 1.5rem;
+  }
+  input, #message{
+    font-size: 1rem;
+  }
+  #message{
+    padding-bottom: 50px;
+  }
+  #contactp2, #contactheader{
+    margin-bottom: 0px;
+  }
+  #contactheader{
+    padding-bottom: 0px;
   }
   #smartboximage{
     border-bottom: 0px;
