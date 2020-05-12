@@ -170,7 +170,7 @@ img{
   text-align: center;
   text-decoration: none;
 }
-.mbutton:hover{
+.mbutton:hover {
   background-color: #7B293C;
   color: white;
   font-family: 'days one', sans-serif;
@@ -390,6 +390,9 @@ mark{
 }
 .flow{
   padding-bottom: 15px;
+  width: 51vw;
+  height: 38vh;
+
 }
 .logosketch{
   padding-bottom: 15px;
@@ -606,6 +609,8 @@ input, #message{
 }
 #message{
   width: 100%;
+  padding-top: 1.5vh;
+  padding-left: 1.5vh;
 }
 .contactp{
   text-align: center;
@@ -639,7 +644,9 @@ input, #message{
   padding-bottom: 3vh;
 }
 .padding2{
-  padding-bottom: 3vh;
+  padding-bottom: 1.5vh;
+  padding-top: 1.5vh;
+  padding-left: 1.5vh;
 }
 /* Start of MEDIA QUERIES: iPAD*/
 @media only screen and (min-width: 768px)  {
@@ -1132,7 +1139,6 @@ display: block;
   display: flex;
 }
 .problemsolution{
-  justify-content: center;
   vertical-align: middle;
   display: flex;
 }
@@ -1207,10 +1213,7 @@ display: block;
   flex: 1;
   justify-content: center;
 }
-.flow{
-  width: 45vw;
-  height: auto;
-}
+
 #userflow1{
   padding-right: 25px;
 }
